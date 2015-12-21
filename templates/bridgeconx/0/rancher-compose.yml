@@ -8,7 +8,7 @@
       description: "Path to installation base directory on host (no trailing slash)."
       label: "Install Path"
       required: true
-      default: "/root/Rancher/"
+      default: "/root/Rancher/my-installation"
       type: "string"
     - variable: "MYSQL_DATABASE"
       description: "Name of MySQL Database to be created"
