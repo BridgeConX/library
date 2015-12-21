@@ -1,0 +1,32 @@
+.catalog:
+  name: "BridgeConX 3"
+  version: "1.0"
+  description: "BridgeConX 3 Web Stack"
+  uuid: bcx-web
+  questions:
+    - variable: "BCX_DIR"
+      description: "Path to installation base directory on host (no trailing slash)."
+      label: "Install Path"
+      required: true
+      default: "/root/Rancher/"
+      type: "string"
+    - variable: "MYSQL_DATABASE"
+      description: "Name of MySQL Database to be created"
+      label: "Database Name"
+      required: true
+      default: "bcx"
+      type: "string"
+    - variable: "MYSQL_PASSWORD"
+      description: "MySQL Password (user is bcx)"
+      label: "Database Password"
+      required: true
+      default: ""
+      type: "password"
+Redis:
+  scale: 1
+MySQL:
+  scale: 1
+PHPNginx:
+  scale: 1
+Mongo:
+  scale: 1
