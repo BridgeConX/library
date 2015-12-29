@@ -1,0 +1,16 @@
+Stow:
+  environment:
+    STOW_URL: http://stow.${STOW_HOST}
+    META_URL: http://meta.${STOW_HOST}
+    SHURLY_URL: x
+    SCAN_URL: http://scan.${STOW_HOST}
+    RAST_URL: http://rast.${STOW_HOST}
+    FORM_URL: http://form.${STOW_HOST}
+  labels:
+    io.rancher.container.pull_image: always
+  tty: true
+  image: bridgeconx/stow
+  volumes:
+  - ${STOW_DIR}:/root/stow
+  stdin_open: true
+  net: host

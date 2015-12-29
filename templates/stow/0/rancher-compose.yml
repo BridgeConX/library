@@ -1,0 +1,20 @@
+.catalog:
+  name: "Stow Suite"
+  version: "1.0"
+  description: "Stow Suite for coolness stuff"
+  uuid: stow-suite
+  questions:
+    - variable: "STOW_DIR"
+      description: "Path on host where PDFs will be stored."
+      label: "Install Path"
+      required: true
+      default: "/root/Rancher/my-stow"
+      type: "string"
+    - variable: "STOW_HOST"
+      description: "Host name to which stow., form., rast., and scan. prefixes will be prepended to."
+      label: "Stow Host"
+      required: true
+      default: "stow.bcx.zone"
+      type: "string"
+Stow:
+  scale: 1

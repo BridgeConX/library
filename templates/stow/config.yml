@@ -1,0 +1,5 @@
+name: Stow Suite
+description: |
+  Written in Golang, the Stow Suite is antiquated software that manages PDFs via API.
+version: v1.0
+category: BCX
