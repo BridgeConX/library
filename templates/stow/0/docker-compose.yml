@@ -10,6 +10,9 @@ Stow:
     io.rancher.container.pull_image: always
     io.rancher.container.hostname_override: container_name
   tty: true
+  dns:
+  - 8.8.8.8
+  - 8.8.4.4
   image: bridgeconx/stow
   volumes:
   - ${STOW_DIR}:/root/stow
