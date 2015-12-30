@@ -8,9 +8,9 @@ Stow:
     FORM_URL: http://form.${STOW_HOST}
   labels:
     io.rancher.container.pull_image: always
+    io.rancher.container.hostname_override: container_name
   tty: true
   image: bridgeconx/stow
   volumes:
   - ${STOW_DIR}:/root/stow
   stdin_open: true
-  net: host
