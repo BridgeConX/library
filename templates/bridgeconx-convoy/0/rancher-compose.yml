@@ -1,8 +1,8 @@
 .catalog:
   name: "BridgeConX 3 - Convoy"
   version: "1.0"
-  description: "BridgeConX 3 Web Stack" - Convoy
-  uuid: bcx-web
+  description: "BridgeConX 3 Web Stack - Convoy"
+  uuid: bcx-web-convoy
   questions:
     - variable: "VOLUME_DRIVER"
       description: "Name of the Storage Pool you'd like to use"

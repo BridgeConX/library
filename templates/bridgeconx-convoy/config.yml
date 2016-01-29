@@ -1,4 +1,4 @@
-name: BridgeConX 3 Web Stack
+name: BridgeConX 3 Web Stack Convoy
 description: |
   PHP 5.6, Nginx, MySQL 5.6, Redis 3, Mongo 3, Convoy for Storage
 version: v1.0
